@@ -12,11 +12,11 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: true
-weibo_username:     2394243863
-zhihu_username:     guo-shao-min
-github_username:    MartinGuo
+weibo_username:     吴宏珊53
+zhihu_username:     吴宏珊
+github_username:    wuhongshan
 #twitter_username:
-facebook_username:  郭绍民
+# facebook_username:  
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -51,7 +51,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: gsm
+duoshuo_username: wuhongshan
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -63,13 +63,13 @@ duoshuo_share: true                     # set to false if you want to use Commen
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_domain: huangxuan.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: ""
+sidebar-about-description: "(while(!(succeed=try())))"
 sidebar-avatar: /img/avatar-head.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -78,6 +78,10 @@ sidebar-avatar: /img/avatar-head.jpg      # use absolute URL, seeing it's used i
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
 
 
 # Friends
