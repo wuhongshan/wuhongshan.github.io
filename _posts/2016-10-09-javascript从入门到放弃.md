@@ -17,4 +17,4 @@ description: 已卒
 附图![新技术联系][1]
 
 
-  [1]: http://od6qpmkyu.bkt.clouddn.com/wuhongshan/mk/react.jpg
+  [1]: http://od6qpmkyu.bkt.clouddn.com/wuhongshan/md/js.jpg
