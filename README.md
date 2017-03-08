@@ -1,4 +1,4 @@
-# MartinGuo  郭绍民
+# Vikey 吴宏珊
 
 This is a blog created by guoshaomin. The blog is live at [MartinGuo](https://martinguo.github.io/).
 

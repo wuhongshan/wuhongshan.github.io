@@ -69,7 +69,7 @@ ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "(while(!(succeed==try())))"
+sidebar-about-description: "我从没被谁知道，所以也没被谁忘记，在别人的回忆里生活，并不是我的目的"
 sidebar-avatar: /img/avatar-head.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
