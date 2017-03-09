@@ -1,14 +1,11 @@
 ---
 layout: post
 title: 模拟jQuery的ajax
-categories: [demo ]
-tags: [Ajax]
-description: 模拟jQuery的ajax
+categories: [jQuery]
+tags: [jQuery]
 ---
 
-### 模拟jQuery的ajax
 
----
 每次通过jQuery的AJAX获取接口，再渲染到页面上时，都暗自感慨AJAX的方便、强大。于是又复习了一遍AJAX的原理，模拟了一下jQuery的AJAX。代码如下：
 ```js
 /*定义一个全局变量 $ */
