@@ -1,0 +1,38 @@
+---
+layout: post
+title: 字符串编码
+categories: [js]
+tags: [js]
+---
+
+JavaScript中有三个可以对字符串编码的函数，分别是： escape,encodeURI,encodeURIComponent，相应3个解码函数：unescape,decodeURI,decodeURIComponent 。
+
+|函数名|用法|参数|返回值|说明|
+|:---:|:---:|:---:|:---:|:---:|
+|escape(string)|编码字符串|字符串|编码的string副本|不会对 ASCII 字母、标点符号（ - _ . ! ~ * ' ( ) ）和数字进行编码|
+|enCodeURI(URIstring)|把字符串作为URI编码|含有 URI 或其他要编码的字符串|编码的URIstring副本|不会对 ASCII 字母、标点符号（ - _ . ! ~ * ' ( );/?:@&=+$,# ）和数字进行编码|
+|enCodeURIComponent(URIstring)|把字符串作为URI编码|含有 URI 或其他要编码的字符串|编码的URIstring副本|不会对 ASCII 字母、标点符号（ - _ . ! ~ * ' ( )）和数字进行编码|
+
+区别：
+|函数|区别|
+|:---:|:---:|
+|escape(string)|除了 ASCII 字母、数字和特定的符号外，对传进来的字符串全部进行转义编码，因此如果想对URL编码，最好不要使用此方法|
+|enCodeURI|用于编码整个URI,URI中的合法字符都不会被编码转换|
+|enCodeURIComponent|用于编码单个URIComponent（指请求参 数。可以将参数中的中文、特殊字符进行转义，而不会影响整个URL|
+
+#### 事例
+```js
+encodeURI('https://item.taobao.com/item.htm?spm=5148.8342959.694504.25.FysMb6&id=12945236853')
+结果：https://item.taobao.com/item.htm?spm=5148.8342959.694504.25.FysMb6&id=12945236853
+
+```
+
+```js
+encodeURIComponent('https://item.taobao.com/item.htm?spm=5148.8342959.694504.25.FysMb6&id=12945236853')
+结果： https%3A%2F%2Fitem.taobao.com%2Fitem.htm%3Fspm%3D5148.8342959.694504.25.FysMb6%26id%3D12945236853
+```
+
+```js
+escape('https://item.taobao.com/item.htm?spm=5148.8342959.694504.25.FysMb6&id=12945236853')
+结果：https%3A//item.taobao.com/item.htm%3Fspm%3D5148.8342959.694504.25.FysMb6%26id%3D12945236853
+```
